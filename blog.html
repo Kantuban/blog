@@ -1,0 +1,13 @@
+---
+layout: blog
+title : 找好玩博客
+header : Team Blog
+group: navigation
+---
+{% for post in site.posts %}
+<div class="page-header">
+  <h1>{{ post.title }}</h1>
+</div>
+{{ post.content | truncatewords: 50 }}
+<a href='{{post.url}}'>More...</a>
+{% endfor %}
