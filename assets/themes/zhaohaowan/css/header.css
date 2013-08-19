@@ -1,0 +1,815 @@
+.container {
+  width: 998px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.container:before,
+.container:after {
+  content: " ";
+  display: table;
+}
+.container:after {
+  clear: both;
+}
+.row {
+  margin-left: -5px;
+  margin-right: -5px;
+}
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+}
+.row:after {
+  clear: both;
+}
+.col_1,
+.col_2,
+.col_3,
+.col_4,
+.col_5,
+.col_6,
+.col_7,
+.col_8,
+.col_9,
+.col_10,
+.col_11,
+.col_12 {
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.col_1 {
+  width: 8.333333333333332%;
+}
+.col_2 {
+  width: 16.666666666666664%;
+}
+.col_3 {
+  width: 25%;
+}
+.col_4 {
+  width: 33.33333333333333%;
+}
+.col_5 {
+  width: 41.66666666666667%;
+}
+.col_6 {
+  width: 50%;
+}
+.col_7 {
+  width: 58.333333333333336%;
+}
+.col_8 {
+  width: 66.66666666666666%;
+}
+.col_9 {
+  width: 75%;
+}
+.col_10 {
+  width: 83.33333333333334%;
+}
+.col_11 {
+  width: 91.66666666666666%;
+}
+.col_12 {
+  width: 100%;
+}
+.header {
+  background: #3C90D6;
+  color: #fff;
+  position: relative;
+  z-index: 1040;
+}
+.header .header_top {
+  float: left;
+  min-height: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 16.666666666666664%;
+  float: right;
+  height: 42px;
+  line-height: 30px;
+  position: relative;
+  z-index: 1;
+}
+.header .header_top:before,
+.header .header_top:after {
+  content: " ";
+  display: table;
+}
+.header .header_top:after {
+  clear: both;
+}
+.header .header_top a {
+  float: right;
+  margin-left: 30px;
+  color: #fff;
+}
+.header .header_top a:hover {
+  color: #ffcd45;
+}
+.header .header_top .user_id {
+  max-width: 170px;
+  height: 30px;
+  overflow: hidden;
+  padding-right: 24px;
+  margin: 0;
+  position: relative;
+  word-wrap: break-word;
+}
+.header .header_top .user_id:hover .icon_arrow_down {
+  background: url(http://img.pintupinqu.com/images/bg_icon_arrow_down_yellow_nav.png) no-repeat;
+}
+.header .header_top .user_id .icon_arrow_down {
+  position: absolute;
+  right: 10px;
+  top: 14px;
+}
+.header .header_body {
+  float: left;
+  width: 100%;
+  padding-bottom: 20px;
+}
+.header .header_body:before,
+.header .header_body:after {
+  content: " ";
+  display: table;
+}
+.header .header_body:after {
+  clear: both;
+}
+.header .header_body .l {
+  position: relative;
+  min-height: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 41.66666666666667%;
+  float: left;
+}
+.header .header_body .l .logo {
+  float: left;
+  width: 158px;
+  height: 58px;
+  margin-right: 15px;
+  text-indent: -150%;
+  overflow: hidden;
+  background: url(http://img.pintupinqu.com/images/logo_big.png) no-repeat;
+}
+.header .header_body .l span {
+  float: left;
+  margin-top: 37px;
+  font-size: 14px;
+  vertical-align: bottom;
+}
+.header .header_body .r {
+  position: relative;
+  min-height: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 58.333333333333336%;
+  float: left;
+}
+.header .header_body .r .search_box {
+  position: relative;
+  margin-bottom: 3px;
+}
+.header .header_body .r .search_box input {
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 100%;
+  float: none;
+  height: 36px;
+  padding: 0 100px 0 10px;
+  font-size: 14px;
+  color: #666;
+}
+.header .header_body .r .search_box .btn_yellow {
+  width: 95px;
+  position: absolute;
+  right: 3px;
+  top: 3px;
+}
+.header .header_body .r p {
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 100%;
+  height: 18px;
+  overflow: hidden;
+  color: #b1d3ef;
+  font-size: 12px;
+}
+.header .header_body .r p a {
+  margin-right: 10px;
+  color: #b1d3ef;
+}
+.header .header_body .r p a:hover {
+  color: #ffcd45;
+}
+.header .func_list {
+  right: 5px;
+  top: 36px;
+}
+.nav,
+.nav_fix {
+  background-color: #63a6de;
+  background-image: -moz-linear-gradient(top, #63a6de, #3d90d6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#63a6de), to(#3d90d6));
+  background-image: -webkit-linear-gradient(top, #63a6de, #3d90d6);
+  background-image: -o-linear-gradient(top, #63a6de, #3d90d6);
+  background-image: linear-gradient(to bottom, #63a6de, #3d90d6);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff63a6de', endColorstr='#ff3d90d6', GradientType=0);
+  color: #ffffff;
+  filter: none;
+  height: 40px;
+  line-height: 40px;
+  position: relative;
+  z-index: 1030;
+  box-shadow: 0 3px 5px -2px rgba(0, 0, 0, 0.2);
+}
+.nav:before,
+.nav_fix:before,
+.nav:after,
+.nav_fix:after {
+  content: " ";
+  display: table;
+}
+.nav:after,
+.nav_fix:after {
+  clear: both;
+}
+.nav a,
+.nav_fix a {
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 8.333333333333332%;
+  padding: 0;
+  margin-right: 10px;
+  color: #ebf4fc;
+  font-size: 14px;
+  text-align: center;
+}
+.nav a .icon_arrow_down,
+.nav_fix a .icon_arrow_down,
+.nav a .icon_arrow_up,
+.nav_fix a .icon_arrow_up {
+  vertical-align: middle;
+  margin-left: 5px;
+}
+.nav a:hover,
+.nav_fix a:hover,
+.nav a.current,
+.nav_fix a.current {
+  background-color: #f4f4f4;
+  background-image: -moz-linear-gradient(top, #f4f4f4, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f4f4f4), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, #f4f4f4, #e6e6e6);
+  background-image: -o-linear-gradient(top, #f4f4f4, #e6e6e6);
+  background-image: linear-gradient(to bottom, #f4f4f4, #e6e6e6);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff4f4f4', endColorstr='#ffe6e6e6', GradientType=0);
+  color: #333333;
+}
+.nav a:hover .icon_arrow_down,
+.nav_fix a:hover .icon_arrow_down,
+.nav a.current .icon_arrow_down,
+.nav_fix a.current .icon_arrow_down {
+  background: url(http://img.pintupinqu.com/images/bg_icon_arrow_down_black_nav.png) no-repeat;
+}
+.nav a.witharrow:hover,
+.nav_fix a.witharrow:hover,
+.nav a.witharrow.current,
+.nav_fix a.witharrow.current {
+  background-color: #f4f4f4;
+  background-image: -moz-linear-gradient(top, #f4f4f4, #ffffff);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f4f4f4), to(#ffffff));
+  background-image: -webkit-linear-gradient(top, #f4f4f4, #ffffff);
+  background-image: -o-linear-gradient(top, #f4f4f4, #ffffff);
+  background-image: linear-gradient(to bottom, #f4f4f4, #ffffff);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff4f4f4', endColorstr='#ffffffff', GradientType=0);
+  color: #333333;
+}
+.nav .nav_btn_blue,
+.nav_fix .nav_btn_blue {
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 16.666666666666664%;
+  padding-left: 0;
+  margin-left: 5px;
+  padding-left: 20px;
+  text-align: left;
+  background-color: #73afe1;
+  background-image: -moz-linear-gradient(top, #73afe1, #519bda);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#73afe1), to(#519bda));
+  background-image: -webkit-linear-gradient(top, #73afe1, #519bda);
+  background-image: -o-linear-gradient(top, #73afe1, #519bda);
+  background-image: linear-gradient(to bottom, #73afe1, #519bda);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff73afe1', endColorstr='#ff519bda', GradientType=0);
+  color: #ffffff;
+}
+.nav .nav_btn_blue:hover,
+.nav_fix .nav_btn_blue:hover {
+  background-color: #73afe1;
+  background-image: -moz-linear-gradient(top, #73afe1, #519bda);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#73afe1), to(#519bda));
+  background-image: -webkit-linear-gradient(top, #73afe1, #519bda);
+  background-image: -o-linear-gradient(top, #73afe1, #519bda);
+  background-image: linear-gradient(to bottom, #73afe1, #519bda);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff73afe1', endColorstr='#ff519bda', GradientType=0);
+  color: #ffffff;
+}
+.nav .nav_btn_blue:hover .icon_arrow_down,
+.nav_fix .nav_btn_blue:hover .icon_arrow_down {
+  background: url(http://img.pintupinqu.com/images/bg_icon_arrow_down_nav.png) no-repeat;
+}
+.nav .nav_btn_blue .icon_arrow_down,
+.nav_fix .nav_btn_blue .icon_arrow_down,
+.nav .nav_btn_blue .icon_arrow_up,
+.nav_fix .nav_btn_blue .icon_arrow_up {
+  position: absolute;
+  top: 18px;
+  right: 20px;
+}
+.nav .link_right,
+.nav_fix .link_right {
+  float: right;
+  margin: 0 5px 0 0;
+}
+.nav .nav_right,
+.nav_fix .nav_right {
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 41.66666666666667%;
+  float: right;
+}
+.nav .nav_right .search_box,
+.nav_fix .nav_right .search_box {
+  float: left;
+  width: 254px;
+  position: relative;
+}
+.nav .nav_right .search_box input,
+.nav_fix .nav_right .search_box input {
+  width: 254px;
+  height: 26px;
+  padding: 0 30px 0 8px;
+}
+.nav .nav_right .search_box .btn_yellow,
+.nav_fix .nav_right .search_box .btn_yellow {
+  width: 26px;
+  height: 24px;
+  margin: 0;
+  line-height: 24px;
+  position: absolute;
+  right: 1px;
+  top: 8px;
+}
+.nav .nav_right .search_box .btn_yellow:after,
+.nav_fix .nav_right .search_box .btn_yellow:after {
+  content: '';
+  display: block;
+  width: 15px;
+  height: 14px;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  background: url(http://img.pintupinqu.com/images/icon_search_brown.png) no-repeat;
+}
+.nav .nav_right .search_box .btn_yellow:hover,
+.nav_fix .nav_right .search_box .btn_yellow:hover {
+  background-color: #ffe18f;
+  background-image: -moz-linear-gradient(top, #ffe18f, #ffbc39);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffe18f), to(#ffbc39));
+  background-image: -webkit-linear-gradient(top, #ffe18f, #ffbc39);
+  background-image: -o-linear-gradient(top, #ffe18f, #ffbc39);
+  background-image: linear-gradient(to bottom, #ffe18f, #ffbc39);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffe18f', endColorstr='#ffffbc39', GradientType=0);
+  color: #782a00;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+.nav .nav_right .search_box .btn_yellow:active,
+.nav_fix .nav_right .search_box .btn_yellow:active {
+  background-color: #ffcd45;
+  background-image: -moz-linear-gradient(top, #ffcd45, #ffab06);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffcd45), to(#ffab06));
+  background-image: -webkit-linear-gradient(top, #ffcd45, #ffab06);
+  background-image: -o-linear-gradient(top, #ffcd45, #ffab06);
+  background-image: linear-gradient(to bottom, #ffcd45, #ffab06);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffcd45', endColorstr='#ffffab06', GradientType=0);
+  color: #782a00;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+.nav .nav_right a,
+.nav_fix .nav_right a {
+  width: auto;
+  float: right;
+  margin: 0 0 0 25px;
+}
+.nav .nav_right a:hover,
+.nav_fix .nav_right a:hover {
+  background: none;
+  color: #ffcd45;
+}
+.nav .nav_right .user_id,
+.nav_fix .nav_right .user_id {
+  max-width: 134px;
+  height: 44px;
+  overflow: hidden;
+  padding-right: 24px;
+  font-size: 12px;
+  position: relative;
+  word-wrap: break-word;
+}
+.nav .nav_right .user_id .icon_arrow_down,
+.nav_fix .nav_right .user_id .icon_arrow_down {
+  position: absolute;
+  right: 10px;
+  top: 21px;
+}
+.nav .nav_right .user_id:hover .icon_arrow_down,
+.nav_fix .nav_right .user_id:hover .icon_arrow_down {
+  background: url(http://img.pintupinqu.com/images/bg_icon_arrow_down_yellow_nav.png) no-repeat;
+}
+.nav .logo_small,
+.nav_fix .logo_small {
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 8.333333333333332%;
+  margin: 0 5px 0 0;
+  text-indent: -200%;
+  overflow: hidden;
+  background: url(http://img.pintupinqu.com/images/logo_small.png) no-repeat 5px 9px;
+}
+.nav .logo_small:hover,
+.nav_fix .logo_small:hover {
+  background: url(http://img.pintupinqu.com/images/logo_small.png) no-repeat 5px 9px;
+}
+.nav .func_list,
+.nav_fix .func_list {
+  right: 5px;
+}
+.nav_fix {
+  height: 44px;
+  line-height: 44px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.nav_fix a {
+  height: 44px;
+  line-height: 44px;
+}
+.nav_fix .nav_right .user_id {
+  margin: 0;
+}
+.nav_fix .nav_right .search_box .btn_yellow {
+  top: 10px;
+}
+.nav_info_box {
+  width: 998px;
+  padding: 30px;
+  border: 2px solid #3C90D6;
+  border-top: none;
+  position: absolute;
+  top: 40px;
+  margin-left: 5px;
+  background-color: #fff;
+}
+.nav_info_box .album {
+  float: left;
+}
+.nav_info_box a {
+  float: none;
+  display: block;
+  width: 99px;
+  height: 28px;
+  line-height: 28px;
+  padding-left: 10px;
+  border-bottom: 1px dotted #ccc;
+  margin-right: 30px;
+  color: #666;
+  text-align: left;
+}
+.nav_info_box a:hover {
+  background-color: #F4F4F4;
+  background-image: none;
+  color: #666;
+}
+.nav_info_box a:hover:after {
+  content: '>';
+  position: absolute;
+  right: 10px;
+  font-family: simsun;
+  color: #999;
+  font-size: 10px;
+}
+.nav_info_box a.last {
+  border: none;
+}
+.nav_info_box .cover {
+  float: left;
+  width: 220px;
+  height: 146px;
+  border: none;
+  overflow: hidden;
+}
+.nav_info_box .cover:hover:after {
+  content: '';
+}
+.departure_choose {
+  width: 326px;
+  padding: 12px 10px 16px 80px;
+  position: absolute;
+  top: 40px;
+  margin-left: 5px;
+  background-color: #519BDA;
+  line-height: 26px;
+  box-shadow: 0 3px 5px -2px rgba(0, 0, 0, 0.2);
+}
+.departure_choose dl {
+  margin-bottom: 5px;
+}
+.departure_choose dt {
+  float: left;
+  margin-left: -60px;
+}
+.departure_choose dd {
+  font-size: 0;
+}
+.departure_choose a {
+  float: none;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  width: 47px;
+  margin-right: 0;
+  white-space: nowrap;
+  text-align: left;
+}
+.departure_choose a:hover {
+  color: #ffcd45;
+  background: none;
+}
+.departure_choose .more {
+  float: none;
+  margin-left: -60px;
+}
+.func_list {
+  width: 197px;
+  position: absolute;
+  display: block;
+  background-color: #fff;
+  border: 2px solid #3C90D6;
+  border-top: none;
+  right: 0;
+  top: 44px;
+}
+.func_list:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border: 8px solid transparent;
+  border-bottom: 8px solid #fff;
+  position: absolute;
+  top: -16px;
+  right: 25px;
+}
+.func_list .bd {
+  margin: 10px 0;
+}
+.func_list .bd a {
+  float: none;
+  display: block;
+  height: 33px;
+  line-height: 33px;
+  padding-left: 35px;
+  margin: 0;
+  position: relative;
+  text-align: left;
+  color: #666;
+}
+.func_list .bd a:hover {
+  background: #F4F4F4;
+  color: #666;
+}
+.func_list .bd a:before {
+  content: '';
+  display: block;
+  width: 15px;
+  height: 15px;
+  background: url(http://img.pintupinqu.com/images/un_nav_function_list_gray.png) no-repeat;
+  position: absolute;
+  left: 13px;
+  top: 11px;
+}
+.func_list .bd .my_info:before {
+  background-position: 0 0;
+}
+.func_list .bd .my_latest:before {
+  background-position: 0 -144px;
+  top: 10px;
+}
+.func_list .bd .my_collaction:before {
+  background-position: 0 -24px;
+}
+.func_list .bd .my_message:before {
+  background-position: 0 -48px;
+}
+.func_list .bd .my_firend:before {
+  background-position: 0 -72px;
+}
+.func_list .bd .my_account:before {
+  background-position: 0 -96px;
+  top: 10px;
+}
+.func_list .bd .logout:before {
+  background-position: 0 -120px;
+  top: 9px;
+}
+.func_list .ft {
+  padding: 10px 0 10px 16px;
+  border-top: 1px solid #f4f4f4;
+}
+.func_list .ft:before,
+.func_list .ft:after {
+  content: " ";
+  display: table;
+}
+.func_list .ft:after {
+  clear: both;
+}
+.func_list .ft a {
+  float: left;
+  width: 76px;
+  height: 30px;
+  margin: 0 10px 0 0;
+  font-size: 14px;
+}
+.func_list .ft .btn_edit {
+  width: 76px;
+  line-height: 28px;
+  color: #333;
+}
+.func_list .ft .btn_edit:hover {
+  background: #fff;
+  color: #333;
+}
+.func_list .ft .btn_edit:active {
+  background-color: #ffffff;
+  background-image: -moz-linear-gradient(top, #ffffff, #e7e7e7);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e7e7e7));
+  background-image: -webkit-linear-gradient(top, #ffffff, #e7e7e7);
+  background-image: -o-linear-gradient(top, #ffffff, #e7e7e7);
+  background-image: linear-gradient(to bottom, #ffffff, #e7e7e7);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe7e7e7', GradientType=0);
+  color: #666666;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+.func_list .ft .btn_yellow {
+  padding-left: 31px;
+  width: 76px;
+  line-height: 30px;
+  color: #782a00;
+  text-align: left;
+  position: relative;
+}
+.func_list .ft .btn_yellow:hover {
+  background-color: #ffe18f;
+  background-image: -moz-linear-gradient(top, #ffe18f, #ffbc39);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffe18f), to(#ffbc39));
+  background-image: -webkit-linear-gradient(top, #ffe18f, #ffbc39);
+  background-image: -o-linear-gradient(top, #ffe18f, #ffbc39);
+  background-image: linear-gradient(to bottom, #ffe18f, #ffbc39);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffe18f', endColorstr='#ffffbc39', GradientType=0);
+  color: #782a00;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+.func_list .ft .btn_yellow:before {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 14px;
+  position: absolute;
+  left: 15px;
+  top: 8px;
+  background: url(http://img.pintupinqu.com/images/bg_upload.png) no-repeat;
+}
+.func_list .ft .btn_yellow:active {
+  background-color: #ffcd45;
+  background-image: -moz-linear-gradient(top, #ffcd45, #ffab06);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffcd45), to(#ffab06));
+  background-image: -webkit-linear-gradient(top, #ffcd45, #ffab06);
+  background-image: -o-linear-gradient(top, #ffcd45, #ffab06);
+  background-image: linear-gradient(to bottom, #ffcd45, #ffab06);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffcd45', endColorstr='#ffffab06', GradientType=0);
+  color: #782a00;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+.func_list .bd .nub_tip {
+  background: url(http://img.pintupinqu.com/images/icon_nub_130131.png) no-repeat;
+  color: #FFF;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  font-family: arial;
+  font-size: 12px;
+  height: 21px;
+  line-height: 20px;
+  margin: 7px -27px 0 0;
+  position: absolute;
+  text-align: center;
+  width: 28px;
+  right: 20px;
+  top: 7px;
+  margin: 0;
+}
+.icon_arrow_down {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  width: 9px;
+  height: 5px;
+  background: url(http://img.pintupinqu.com/images/bg_icon_arrow_down_nav.png) no-repeat;
+}
+.icon_arrow_down.black {
+  background: url(http://img.pintupinqu.com/images/bg_icon_arrow_down_black_nav.png) no-repeat;
+}
+.icon_arrow_up {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  width: 9px;
+  height: 5px;
+  background: url(http://img.pintupinqu.com/images/bg_icon_arrow_up_nav.png) no-repeat;
+}
+.footer {
+  background-color: #666;
+  color: #fff;
+}
+.footer a {
+  color: #fff;
+}
+.footer_right {
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 50%;
+  line-height: 70px;
+  text-align: right;
+}
+.footer_left {
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 50%;
+}
+.footer_left a {
+  float: left;
+  margin-right: 24px;
+  line-height: 70px;
+  font-size: 14px;
+}
+.footer_left .logo {
+  width: 120px;
+  height: 44px;
+  margin-top: 13px;
+  background: url(http://img.pintupinqu.com/images/logo_middle.png) no-repeat;
+  text-indent: -150%;
+  overflow: hidden;
+  vertical-align: middle;
+}
